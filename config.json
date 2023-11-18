@@ -1,0 +1,28 @@
+{
+    "EEGDevice": {
+        "deviceName": "Default EEG Device",
+        "connectionType": "Bluetooth",
+        "dataRate": 250
+    },
+    "DataProcessor": {
+        "samplingRate": 250,
+        "filterType": "Bandpass",
+        "filterOrder": 5,
+        "filterFrequencies": {
+            "alpha": [8, 12],
+            "beta": [12, 30],
+            "theta": [4, 8],
+            "delta": [0.5, 4]
+        }
+    },
+    "UserProfile": {
+        "defaultPreferences": {
+            "feedbackType": "Visual",
+            "meditationGoal": "Relaxation"
+        }
+    },
+    "Security": {
+        "encryptionAlgorithm": "AES-256",
+        "hashingAlgorithm": "SHA-256"
+    }
+}
